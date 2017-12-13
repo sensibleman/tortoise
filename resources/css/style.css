@@ -66,3 +66,29 @@ nav a {
   top:10rem;
   left:48%;
 }
+/* ICONS SECTION */
+.container_icon {
+  display:flex;
+  justify-content:center;
+  border-bottom:1px solid black;
+
+}
+.icon{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  text-align:center;
+  width:5rem;
+  height:8rem;
+  margin:3rem;
+}
+.icon img{
+  width:5rem;
+}
+.icon p{
+  margin:0;
+}
+#ruler{
+  width:3.5rem;
+}
