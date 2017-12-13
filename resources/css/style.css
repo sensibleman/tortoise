@@ -70,7 +70,6 @@ nav a {
 .container_icon {
   display:flex;
   justify-content:center;
-  border-bottom:1px solid black;
 
 }
 .icon{
@@ -91,4 +90,29 @@ nav a {
 }
 #ruler{
   width:3.5rem;
+}
+/* TEXT BOX SECTION */
+.phil_appt {
+  display:flex;
+  justify-content:center;
+  margin:auto;
+}
+.container_text{
+  width:35%;
+  margin-right:5%;
+  position:relative;
+  left:5%;
+}
+.heading{
+  padding:0.5rem 1.25rem;
+  background-color:cadetblue;
+  width:10rem;
+  font-weight:bold;
+}
+.testcontainer{
+  display:flex;
+}
+.anothercontainer{
+  display:flex;
+
 }
