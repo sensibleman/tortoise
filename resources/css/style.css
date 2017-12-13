@@ -95,7 +95,7 @@ nav a {
 .phil_appt {
   display:flex;
   justify-content:center;
-  margin:auto;
+  margin-bottom:5rem;
 }
 .container_text{
   width:35%;
@@ -109,10 +109,18 @@ nav a {
   width:10rem;
   font-weight:bold;
 }
-.testcontainer{
-  display:flex;
+.container_text p{
+  margin-bottom:0;
 }
-.anothercontainer{
+/* FOOTER */
+.container_footer{
   display:flex;
-
+  padding:4rem;
+  background-color:azure;
+  align-items:center;
+}
+.container_footer img{
+  height:1.5rem;
+  padding-right:1rem;
+  max-width:100%;
 }
